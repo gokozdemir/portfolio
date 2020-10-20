@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Portfolio | Responsive Web Tasarım</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Ana Sayfa</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Hakkında</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Hizmetler</a></li>
+            <li><a href="#work" onclick="toggleMenu();">İş</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Referanslar</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">İletişim</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Merhaba Ben<br><span>Gökhan Özdemir.</span></h2>
+            <h3>Front-End Web Developer</h3>
+            <a href="#about" class="btn">Hakkımda</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Hakkımda</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Ben bir Front-End Web Developer'ım</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus dignissimos, incidunt, pariatur eius illo eaque quas sed cupiditate dolor aut alias, exercitationem optio sapiente! Quod aperiam dolore aspernatur quo rem?<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio aperiam, error maxime soluta eveniet atque doloribus placeat maiores enim ut illo architecto neque commodi fuga molestias. Fuga, sunt blanditiis!
+                </p>
+            </div>
+            <div class="w50">
+                <img src="img/img1.jpg" class="img" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Hizmetlerim</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, omnis!</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="img/icon1.png" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit labore aliquam neque magni a!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon2.png" alt="">
+                <h2>Web Geliştirme</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit labore aliquam neque magni a!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon3.png" alt="">
+                <h2>Android App</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit labore aliquam neque magni a!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon4.png" alt="">
+                <h2>Fotoğraf</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit labore aliquam neque magni a!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon5.png" alt="">
+                <h2>İçerik Yazımı</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit labore aliquam neque magni a!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon6.png" alt="">
+                <h2>Video Düzenleme</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit labore aliquam neque magni a!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>En Son İşlerim</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, temporibus.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="/img/product1.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="/img/product2.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="/img/product3.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="/img/product4.jpg" alt="">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">Daha Fazlası</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Referans</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam aliquid temporibus dolore distinctio unde, consectetur voluptatum in dolorum maxime nesciunt, deserunt placeat? Neque temporibus facere quidem, voluptate voluptatem praesentium?</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam aliquid temporibus dolore distinctio unde, consectetur voluptatum in dolorum maxime nesciunt, deserunt placeat? Neque temporibus facere quidem, voluptate voluptatem praesentium?</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>İletişime Geç</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>İletişim Bilgileri</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Adres</h3>
+                            <p>Falan filan sok.<br>Bla Bla Mah.<br>Eyüp/İstanbul<br>55060</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Telefon</h3>
+                            <p>0555-555-55-55</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>E-mail</h3>
+                            <p>gokhan@ozdemir.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Mesaj Gönder</h3>
+                    <input type="text" name="" placeholder="Ad Soyad">
+                    <input type="email" name="" placeholder="E-mail">
+                    <textarea placeholder="Mesajınız"></textarea>
+                    <input type="submit" value="Gönder">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright © 2020 Gökhan Özdemir. Tüm hakları saklıdır.</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0)
+        });
+
+        function toggleMenu(){
+            let menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active');
+            let menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
